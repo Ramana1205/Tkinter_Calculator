@@ -29,7 +29,7 @@ def calc():
         entry.insert(0, result)
     except:
         entry.delete(0, tk.END)
-        entry.insert(0, "FUCK YOU")
+        entry.insert(0, "Error")
 
 buttons = [
     "7","8","9","/",
